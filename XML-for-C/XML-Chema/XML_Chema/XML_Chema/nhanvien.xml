@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="nhanvien.xslt"?>
+<congty>
+  <donvi>
+    <madv>A001</madv>
+    <tendv>Phòng tổ chức</tendv>
+    <dienthoai>1234567890</dienthoai>
+  </donvi>
+  <nhanvien>
+    <manv>tc01</manv>
+    <hoten>Nguyễn Đăng Tuấn</hoten>
+    <ngaysinh>1994-03-16</ngaysinh>
+    <gioitinh>nam</gioitinh>
+    <hsluong>5</hsluong>
+  </nhanvien>
+  <nhanvien>
+    <manv>tc02</manv>
+    <hoten>Nguyễn Đăng Tuấn</hoten>
+    <ngaysinh>1994-03-16</ngaysinh>
+    <gioitinh>nam</gioitinh>
+    <hsluong>5</hsluong>
+  </nhanvien>
+  <nhanvien>
+    <manv>tc03</manv>
+    <hoten>Nguyễn Đăng Tuấn</hoten>
+    <ngaysinh>1994-03-16</ngaysinh>
+    <gioitinh>nam</gioitinh>
+    <hsluong>2</hsluong>
+  </nhanvien>
+  <nhanvien>
+    <manv>tc03</manv>
+    <hoten>Nguyễn Đăng Tuấn</hoten>
+    <ngaysinh>1994-03-16</ngaysinh>
+    <gioitinh>nam</gioitinh>
+    <hsluong>4</hsluong>
+  </nhanvien>
+</congty>

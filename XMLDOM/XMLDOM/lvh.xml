@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<danhmucnxb>
+  <nxb manxb="01">
+    <tennxb>Lê Văn Huân</tennxb>
+    <diachi>Thọ Lâm - Thọ Xuân - Thanh Hóa</diachi>
+  </nxb>
+  <nxb manxb="02">
+    <tennxb>Lê Văn Huân</tennxb>
+    <diachi>Thọ Lâm - Thọ Xuân</diachi>
+  </nxb>
+  <nxb manxb="03">
+    <tennxb>Lê Văn Huân</tennxb>
+    <diachi>Thọ Lâm - Thọ Xuân</diachi>
+  </nxb>
+  <nxb manxb="04">
+    <tennxb>Lê Văn Huân</tennxb>
+    <diachi>Thọ Hải</diachi>
+  </nxb>
+  <nxb manxb="05">
+    <tennxb>Lê Văn Huân</tennxb>
+    <diachi>Thọ Diên</diachi>
+  </nxb>
+</danhmucnxb>

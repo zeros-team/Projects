@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE qldiem SYSTEM "Bai2Chuong2.dtd">
+<qldiem>
+  <sv masv="sv01">
+    <hoten>Huân</hoten>
+    <ngaysinh>12-12-1992</ngaysinh>
+  </sv>
+  <sv masv="sv02">
+    <hoten>Huân 1</hoten>
+    <ngaysinh>1-12-1992</ngaysinh>
+  </sv>
+  <sv masv="sv03">
+    <hoten>Huân 2</hoten>
+    <ngaysinh>12-1-1992</ngaysinh>
+  </sv>
+  <sv masv="sv04">
+    <hoten>Huân 3</hoten>
+    <ngaysinh>12-2-1992</ngaysinh>
+  </sv>
+  <lop malop="lop10"/>
+  <lop malop="lop11"/>
+  <bangdiem lop="lop10" masv="sv02">
+    <nam>2009</nam>
+    <monhoc ki1="9" ki2="9" canam="9">
+      <tenmon>Toán</tenmon>
+    </monhoc>
+    <monhoc ki1="10" ki2="9" canam="9">
+      <tenmon>Lý</tenmon>
+    </monhoc>
+    <monhoc ki1="1" ki2="9" canam="9">
+      <tenmon>Hóa</tenmon>
+    </monhoc>
+    <monhoc ki1="9" ki2="0" canam="9">
+      <tenmon>Sinh</tenmon>
+    </monhoc>
+  </bangdiem>
+</qldiem>

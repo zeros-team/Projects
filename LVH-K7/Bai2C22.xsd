@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Bai2C22"
+    targetNamespace="http://tempuri.org/Bai2C22.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/Bai2C22.xsd"
+    xmlns:mstns="http://tempuri.org/Bai2C22.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <!--Định nghĩa kiểu khóa chính-->
+  <xs:simpleType name="kkhoachinh">
+    <xs:restriction base="xs:ID">
+      <xs:minLength value="2"/>
+      <xs:maxLength value="4"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Định nghĩa kiểu khóa ngoại-->
+  <xs:simpleType name="kkhoangoai">
+    <xs:restriction base="xs:IDREF">
+      <xs:minLength value="2"/>
+      <xs:maxLength value="4"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Kiểu môn học-->
+  <xs:complexType name="kmonhoc">
+    <xs:sequence>
+      <xs:element name="tenmon">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Toán"/>
+            <xs:enumeration value="Văn"/>
+            <xs:enumeration value="Lý"/>
+            <xs:enumeration value="Hóa"/>
+            <xs:enumeration value="Sinh"/>
+            <xs:enumeration value="Sử"/>
+            <xs:enumeration value="Địa"/>
+            <xs:enumeration value="Ngoại ngữ"/>
+            <xs:enumeration value="Thể dục"/>
+            <xs:enumeration value="GDCD"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="Ky1" type ="diem"/>
+      <xs:element name="Ky2" type ="diem"/>
+      <xs:element name="Canam" type ="diem"/>
+    </xs:sequence>
+  </xs:complexType>
+  <!--định nghĩa Phần tử diem-->
+  <xs:simpleType name="diem">
+    <xs:restriction base="xs:int">
+      <xs:maxInclusive value="10"/>
+      <xs:minInclusive value="0"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--định nghĩa Phần tử hocsinh-->
+  <xs:element name="hocsinh">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="hoten">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:minLength value="4"/>
+              <xs:maxLength value="50"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="ngaysinh">
+          <xs:simpleType>
+            <xs:restriction base="xs:date">
+              <xs:maxInclusive value="2015-01-30"/>
+              <xs:minInclusive value="1950-01-30"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="mahs" type="kkhoachinh"/>
+    </xs:complexType>
+  </xs:element>
+  <!--định nghĩa Phần tử lop-->
+  <xs:element name="lop">
+    <xs:complexType>
+      <xs:attribute name="malop" type="kkhoachinh"/>    
+    </xs:complexType>
+  </xs:element>
+  <!--định nghĩa Phần tử lophoc-->
+  <xs:element name="lophoc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="tenlop" type="xs:string"/>
+        <xs:element name="gvcn" type="xs:string"/>
+      </xs:sequence>
+      <xs:attribute name="malop" type ="kkhoangoai"/>
+    </xs:complexType>
+  </xs:element>
+  <!--định nghĩa Phần tử bangdiem-->
+  <xs:element name="bangdiem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="namhoc" type="xs:gYear"/>
+        <xs:element name="monhoc" type="kmonhoc" minOccurs="10" maxOccurs="10"/>
+      </xs:sequence>
+      <xs:attribute name="masv" type="kkhoangoai"/>
+      <xs:attribute name="malop" type="kkhoangoai"/>
+    </xs:complexType>
+  </xs:element>
+  <!--định nghĩa Phần tử QLDIEM là phần tử gốc-->
+  <xs:element name="QLDIEM">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="hocsinh" maxOccurs="45"/>
+        <xs:element ref="lop" maxOccurs="100"/>
+        <xs:element  ref="lophoc" maxOccurs="unbounded"/>
+        <xs:element ref="bangdiem" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

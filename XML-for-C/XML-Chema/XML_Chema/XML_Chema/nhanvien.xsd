@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="nhanvien"
+    targetNamespace="http://tempuri.org/nhanvien.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/nhanvien.xsd"
+    xmlns:mstns="http://tempuri.org/nhanvien.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <!--Tạo nút gốc-->
+  <xs:element name="congty"><!--Là phần tử phức hợp-->
+    <xs:complexType>
+      <xs:sequence>
+        <!--CODE phần tử con của congty-->
+        <xs:element name="donvi" maxOccurs="10"><!--Là phần tử phức hợp-->
+          <xs:complexType>
+            <xs:sequence>
+              <!--CODE phần tử con của dơnvi-->
+              <xs:element name="madv"><!--Là phần tử đơn giản tự định nghĩa-->
+                <xs:simpleType>
+                  <xs:restriction base="xs:ID">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element><!--END phần tử mã đơn vị-->
+              <xs:element name="tendv" type="xs:string" /><!--END phần tử mã tên đơn vị-->
+              <xs:element name="dienthoai">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="\d{10}" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element><!--END phần điện thoại-->
+            </xs:sequence>
+            <!--CODE thuộc tính của đơn vị-->
+          </xs:complexType>
+        </xs:element><!--END phần tử đơn vị-->
+        <xs:element name="nhanvien"><!--Là phần tử phức hợp-->
+          <xs:complexType>
+            <xs:sequence>
+              <!--CODE phần tử con của nhân viên-->
+              <xs:element name="manv"><!--Là phần tử đơn giản tự định nghĩa-->
+                <xs:simpleType>
+                  <xs:restriction base="xs:ID">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element><!--END phàn tử mã nhân viên-->
+              <xs:element name="hoten" type="xs:string" />
+              <xs:element name="ngaysinh" type="xs:date" />
+              <xs:element name="gioitinh"><!--LÀ phần tử đơn giản tự định nghĩa-->
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:enumeration value="nam" />
+                    <xs:enumeration value="nu" />
+                  </xs:restriction>
+                </xs:simpleType><!--END phần tử giới tính-->
+              </xs:element>
+              <xs:element name="hsluong">
+                <xs:simpleType>
+                  <xs:restriction base="xs:double">
+                    <xs:maxExclusive value="8.8" />
+                    <xs:minExclusive value="2.34" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element><!--end phần tử hsluong-->
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element><!--END phần tử nhân viên-->
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element><!--END phần tử công ty-->
+</xs:schema>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<QLDIEM xmlns="http://tempuri.org/B2C2.xsd">
+  <hocsinh mahs="dd01">
+    <hoten>Nguyễn Văn Mạnh</hoten>
+    <ngaysinh>1994-12-12</ngaysinh>
+  </hocsinh>
+  <lop malop="ml01"/>
+  <lophoc malop="ml01">
+    <tenlop>KHMT2-K7</tenlop>
+    <gvcn>Phạm Văn Hiệp</gvcn>
+  </lophoc>
+
+  <bangdiem malop="ml01" masv="dd01">
+    <namhoc>2015</namhoc>
+    <monhoc>
+      <tenmon>Toán</tenmon>
+      <Ky1>9</Ky1>
+      <Ky2>9</Ky2>
+      <canam>9</canam>
+    </monhoc>
+  </bangdiem>
+
+  <bangdiem malop="ml01" masv="dd01">
+    <namhoc>2015</namhoc>
+    <monhoc>
+      <tenmon>Văn</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>8</Ky2>
+      <canam>8</canam>
+    </monhoc>
+  </bangdiem>
+</QLDIEM>

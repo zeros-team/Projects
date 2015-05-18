@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Bai2Chuong2"
+    targetNamespace="http://tempuri.org/Bai2Chuong2.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/Bai2Chuong2.xsd"
+    xmlns:mstns="http://tempuri.org/Bai2Chuong2.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+    <!--Dinh nghia kieu khoa chinh-->
+    <xs:simpleType name="kkhoachinh">
+      <xs:restriction base="xs:ID">
+        <xs:minLength value="2"/>
+        <xs:maxLength value="4"/>
+      </xs:restriction>
+    </xs:simpleType>
+
+    <!--Dinh nghia kieu khoa chinh-->
+    <xs:simpleType name="kkhoangoai">
+      <xs:restriction base="xs:IDREF">
+        <xs:minLength value="2"/>
+        <xs:maxLength value="4"/>
+      </xs:restriction>
+    </xs:simpleType>
+
+    <!--Dinh nghia kieu mon hoc-->
+    <xs:complexType name="kmonhoc">
+      <xs:sequence>
+        <xs:element name="tenmon">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Toan"/>
+              <xs:enumeration value="Van"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="Ki1" type="diem"/>
+        <xs:element name="Ki2" type="diem"/>
+        <xs:element name="Canam" type="diem"/>
+      </xs:sequence>
+    </xs:complexType>
+
+    <!--Dinh nghia kieu diem-->
+    <xs:simpleType name="diem">
+      <xs:restriction base="xs:int">
+        <xs:maxExclusive value="10"/>
+        <xs:minExclusive value="0"/>
+      </xs:restriction>
+    </xs:simpleType>
+
+    <!--Dinh nghia kieu hocsinh-->
+    <xs:element name="hocsinh">
+      <xs:complexType>
+        <xs:sequence>
+          <xs:element name="hoten">
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:minLength value="4"/>
+                <xs:maxLength value="50"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:element>
+          <xs:element name="ngaysinh">
+            <xs:simpleType>
+              <xs:restriction base="xs:date">
+                <xs:maxExclusive value="2015-01-30"/>
+                <xs:minInclusive value="1950-01-30"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:element>
+        </xs:sequence>
+        <xs:attribute name="mahs" type="kkhoachinh"/>
+      </xs:complexType>
+    </xs:element>
+
+    <!--Dinh nghia kieu lop-->
+    <xs:element name="lop">
+      <xs:complexType>
+        <xs:attribute name="malop" type="kkhoachinh"/>
+      </xs:complexType>
+    </xs:element>
+
+    <!--Dinh nghia kieu lop hoc-->
+    <xs:element name="lophoc">
+      <xs:complexType>
+        <xs:sequence>
+          <xs:element name="tenlop" type="xs:string"/>
+          <xs:element name="gvcn" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="malop" type="kkhoangoai"/>
+      </xs:complexType>
+    </xs:element>
+
+    <!--Dinh nghia kieu bang diem-->
+    <xs:element name="bangdiem">
+      <xs:complexType>
+        <xs:sequence>
+          <xs:element name="namhoc" type="xs:gYear"/>
+          <xs:element name="monhoc" type="kmonhoc"/>
+        </xs:sequence>
+        <xs:attribute name="masv" type="kkhoangoai"/>
+        <xs:attribute name ="malop" type="kkhoangoai"/>
+      </xs:complexType>
+    </xs:element>
+
+    <!--Dinh nghia kieu phantu goc QLDIEM-->
+    <xs:element name="QLDIEM">
+      <xs:complexType>
+        <xs:sequence>
+          <xs:element ref="hocsinh" maxOccurs="45"/>
+          <xs:element ref="lop" maxOccurs="100"/>
+          <xs:element ref="lophoc" maxOccurs="unbounded"/>
+          <xs:element ref="mstns:bangdiem" maxOccurs="unbounded"/>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:element>
+
+</xs:schema>

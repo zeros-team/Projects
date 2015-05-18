@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<QLDIEM xmlns="http://tempuri.org/Bai2C22.xsd">
+  <hocsinh mahs="01">
+    <hoten>Lê Văn Huân</hoten>
+    <ngaysinh>28/04/1994</ngaysinh>
+  </hocsinh>
+  <lop malop="abc">12b3</lop>
+  <lophoc malop="abc">
+    <tenlop>12</tenlop>
+    <gvcn>Lê</gvcn>
+  </lophoc>
+  <bangdiem malop="abc" masv="01">
+    <namhoc>2012</namhoc>
+    <monhoc>GDCD</monhoc>
+  </bangdiem>
+</QLDIEM>

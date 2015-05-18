@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="VD1"
+    targetNamespace="http://tempuri.org/VD1.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/VD1.xsd"
+    xmlns:mstns="http://tempuri.org/VD1.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="abc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="a1" type="xs:double"/>
+        <xs:element name="a2" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="goc">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element ref="abc" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

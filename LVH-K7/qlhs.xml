@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<QLDIEM>
+  <hocsinh mahs="HS01">
+    <hoten>Lê Văn Huân</hoten>
+    <ngaysinh>1994-12-18</ngaysinh>
+  </hocsinh>
+  <hocsinh mahs="HS02">
+    <hoten>Trần Văn Diệm</hoten>
+    <ngaysinh>1995-05-19</ngaysinh>
+  </hocsinh>
+  <hocsinh mahs="HS03">
+    <hoten>Vũ Đình Điệp</hoten>
+    <ngaysinh>1992-12-12</ngaysinh>
+  </hocsinh>
+  <hocsinh mahs="HS04">
+    <hoten>Đặng Văn Đoàn</hoten>
+    <ngaysinh>1994-05-01</ngaysinh>
+  </hocsinh>
+  <hocsinh mahs="HS05">
+    <hoten>Đoàn Văn Đông</hoten>
+    <ngaysinh>1994-09-11</ngaysinh>
+  </hocsinh>
+  <hocsinh mahs="HS09">
+    <hoten>Lê Khắc Đông</hoten>
+    <ngaysinh>1990-07-09</ngaysinh>
+  </hocsinh>
+  <lop malop="L101"/>
+  <lop malop="L102"/>
+  <lophoc malop="L101">
+    <tenlop>8A</tenlop>
+    <gvcn>Phạm Văn Hiệp</gvcn>
+  </lophoc>
+  <lophoc malop="L102">
+    <tenlop>8B</tenlop>
+    <gvcn>Nguyễn Thị Thanh Bình</gvcn>
+  </lophoc>
+  <lophoc malop="L101">
+    <tenlop>9A</tenlop>
+    <gvcn>Trịnh Hoài Đức</gvcn>
+  </lophoc>
+  <lophoc malop="L102">
+    <tenlop>9B</tenlop>
+    <gvcn>Tống Xuân Hoài</gvcn>
+  </lophoc>
+  <lophoc malop="L101">
+    <tenlop>10A</tenlop>
+    <gvcn>Phan Thanh Bình</gvcn>
+  </lophoc>
+  <lophoc malop="L102">
+    <tenlop>10B</tenlop>
+    <gvcn>Hoàng Hải Hà</gvcn>
+  </lophoc>
+  <!--Học Sinh 01-->
+  <bangdiem malop="L101" masv="HS01">
+    <namhoc>2012</namhoc>
+    <monhoc>
+
+      <tenmon>Toán</tenmon>
+      
+      <Ky1>8</Ky1>
+      <Ky2>7</Ky2>
+      <Canam>7</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Lý</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>10</Ky2>
+      <Canam>9</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Hóa</tenmon>
+      <Ky1>4</Ky1>
+      <Ky2>5</Ky2>
+      <Canam>4</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Văn</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>7</Ky2>
+      <Canam>9</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Sinh</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>7</Ky2>
+      <Canam>7</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Sử</tenmon>
+      <Ky1>10</Ky1>
+      <Ky2>6</Ky2>
+      <Canam>8</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Địa</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>8</Ky2>
+      <Canam>8</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Ngoại ngữ</tenmon>
+      <Ky1>9</Ky1>
+      <Ky2>8</Ky2>
+      <Canam>8</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Thể dục</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>7</Ky2>
+      <Canam>7</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>GDCD</tenmon>
+      <Ky1>7</Ky1>
+      <Ky2>6</Ky2>
+      <Canam>6</Canam>
+    </monhoc>
+    <namhoc>2009</namhoc>
+  </bangdiem>
+ <!--Học sinh 02-->
+<bangdiem malop="L101" masv="HS02">
+  <namhoc>2012</namhoc>
+    <monhoc>
+      <tenmon>Toán</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>9</Ky2>
+      <Canam>9</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Lý</tenmon>
+      <Ky1>6</Ky1>
+      <Ky2>8</Ky2>
+      <Canam>7</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Hóa</tenmon>
+      <Ky1>10</Ky1>
+      <Ky2>9</Ky2>
+      <Canam>9</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Văn</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>9</Ky2>
+      <Canam>8</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Sinh</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>7</Ky2>
+      <Canam>7</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Sử</tenmon>
+      <Ky1>10</Ky1>
+      <Ky2>6</Ky2>
+      <Canam>8</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Địa</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>8</Ky2>
+      <Canam>8</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Ngoại Ngữ</tenmon>
+      <Ky1>9</Ky1>
+      <Ky2>8</Ky2>
+      <Canam>8</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Thể dục</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>7</Ky2>
+      <Canam>7</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>GDCD</tenmon>
+      <Ky1>7</Ky1>
+      <Ky2>8</Ky2>
+      <Canam>8</Canam>
+    </monhoc>
+    <namhoc>2009</namhoc>
+  </bangdiem>
+  <!--Học sinh 03-->
+  <bangdiem malop="L101" masv="HS01">
+    <monhoc>
+      <tenmon>Toán</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>9</Ky2>
+      <Canam>9</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Lý</tenmon>
+      <Ky1>6</Ky1>
+      <Ky2>8</Ky2>
+      <Canam>7</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Hóa</tenmon>
+      <Ky1>10</Ky1>
+      <Ky2>9</Ky2>
+      <Canam>9</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Văn</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>9</Ky2>
+      <Canam>8</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Sinh</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>7</Ky2>
+      <Canam>7</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Sử</tenmon>
+      <Ky1>10</Ky1>
+      <Ky2>6</Ky2>
+      <Canam>8</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Địa</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>8</Ky2>
+      <Canam>8</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Ngoại Ngữ</tenmon>
+      <Ky1>9</Ky1>
+      <Ky2>8</Ky2>
+      <Canam>8</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Thể dục</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>7</Ky2>
+      <Canam>7</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>GDCD</tenmon>
+      <Ky1>7</Ky1>
+      <Ky2>8</Ky2>
+      <Canam>8</Canam>
+    </monhoc>
+    <namhoc>2009</namhoc>
+  </bangdiem>
+  <!--Học sinh 04-->
+  <bangdiem malop="L101" masv="HS04">
+    <monhoc>
+      <tenmon>Toán</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>9</Ky2>
+      <Canam>9</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Lý</tenmon>
+      <Ky1>6</Ky1>
+      <Ky2>8</Ky2>
+      <Canam>7</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Hóa</tenmon>
+      <Ky1>10</Ky1>
+      <Ky2>9</Ky2>
+      <Canam>9</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Văn</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>9</Ky2>
+      <Canam>8</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Sinh</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>7</Ky2>
+      <Canam>7</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Sử</tenmon>
+      <Ky1>10</Ky1>
+      <Ky2>6</Ky2>
+      <Canam>8</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Địa</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>8</Ky2>
+      <Canam>8</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Ngoại Ngữ</tenmon>
+      <Ky1>9</Ky1>
+      <Ky2>8</Ky2>
+      <Canam>8</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Thể dục</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>7</Ky2>
+      <Canam>7</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>GDCD</tenmon>
+      <Ky1>7</Ky1>
+      <Ky2>8</Ky2>
+      <Canam>8</Canam>
+    </monhoc>
+    <namhoc>2009</namhoc>
+  </bangdiem>
+  <!--Học sinh 05-->
+  <bangdiem malop="L102" masv="HS05">
+    <monhoc>
+      <tenmon>Toán</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>9</Ky2>
+      <Canam>9</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Lý</tenmon>
+      <Ky1>6</Ky1>
+      <Ky2>8</Ky2>
+      <Canam>7</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Hóa</tenmon>
+      <Ky1>10</Ky1>
+      <Ky2>9</Ky2>
+      <Canam>9</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Văn</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>9</Ky2>
+      <Canam>8</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Sinh</tenmon>
+      <Ky1>9</Ky1>
+      <Ky2>4</Ky2>
+      <Canam>5</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Sử</tenmon>
+      <Ky1>10</Ky1>
+      <Ky2>7</Ky2>
+      <Canam>8</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Địa</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>4</Ky2>
+      <Canam>6</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Ngoại Ngữ</tenmon>
+      <Ky1>9</Ky1>
+      <Ky2>7</Ky2>
+      <Canam>7</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Thể dục</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>6</Ky2>
+      <Canam>6</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>GDCD</tenmon>
+      <Ky1>5</Ky1>
+      <Ky2>5</Ky2>
+      <Canam>4</Canam>
+    </monhoc>
+    <namhoc>2009</namhoc>
+  </bangdiem>
+  <bangdiem malop="L107" masv="HS04">
+    <monhoc>
+      <tenmon>Toán</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>9</Ky2>
+      <Canam>9</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Lý</tenmon>
+      <Ky1>6</Ky1>
+      <Ky2>8</Ky2>
+      <Canam>7</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Hóa</tenmon>
+      <Ky1>10</Ky1>
+      <Ky2>9</Ky2>
+      <Canam>9</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Văn</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>9</Ky2>
+      <Canam>8</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Sinh</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>7</Ky2>
+      <Canam>7</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Sử</tenmon>
+      <Ky1>10</Ky1>
+      <Ky2>6</Ky2>
+      <Canam>8</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Địa</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>8</Ky2>
+      <Canam>8</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Ngoại Ngữ</tenmon>
+      <Ky1>9</Ky1>
+      <Ky2>8</Ky2>
+      <Canam>8</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>Thể dục</tenmon>
+      <Ky1>8</Ky1>
+      <Ky2>7</Ky2>
+      <Canam>7</Canam>
+    </monhoc>
+    <monhoc>
+      <tenmon>GDCD</tenmon>
+      <Ky1>7</Ky1>
+      <Ky2>8</Ky2>
+      <Canam>8</Canam>
+    </monhoc>
+    <namhoc>2009</namhoc>
+  </bangdiem>
+</QLDIEM>

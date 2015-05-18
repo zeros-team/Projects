@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE qldiem SYSTEM "Bai2Chuong2.dtd">
+<qldiem>
+  <sv msv="sv01">
+    <hoten>jhhk</hoten>
+    <ngaysinh>uyiyi</ngaysinh>
+  </sv>
+  <sv msv="sv03">
+    <hoten>jhhk</hoten>
+    <ngaysinh>uyiyi</ngaysinh>
+  </sv>
+  <sv msv="sv02">
+    <hoten>jhhk</hoten>
+    <ngaysinh>uyiyi</ngaysinh>
+  </sv>
+  <lop malop="lop10"/>
+  <lop malop="lop11"/>
+  <lophoc malop="lop10">
+    <tenlop>10A</tenlop>
+    <nam>2009</nam>
+    <gvcn>Trần Thanh Hà</gvcn>
+  </lophoc>
+   <bangdiem lop="lop10" msv="sv02">
+    <nam>2009</nam>
+    <monhoc ki1="9" ki2="0" canam="10">
+      <tenmon> toán</tenmon>
+    </monhoc>
+    <monhoc ki1="9" ki2="0" canam="10">
+      <tenmon> toán</tenmon>
+    </monhoc>
+    <monhoc ki1="9" ki2="0" canam="10">
+      <tenmon> toán</tenmon>
+    </monhoc>
+    <monhoc ki1="9" ki2="0" canam="10">
+      <tenmon> toán</tenmon>
+    </monhoc>
+    
+  </bangdiem>
+  
+</qldiem>

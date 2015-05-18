@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!ELEMENT qldiem (sv+,lop+,bangdiem*)>
+<!ELEMENT sv (hoten,ngaysinh)>
+<!ELEMENT hoten (#PCDATA)>
+<!ELEMENT ngaysinh (#PCDATA)>
+<!ATTLIST sv masv ID #REQUIRED>
+
+<!ELEMENT lop EMPTY>
+<!ATTLIST lop malop ID #REQUIRED>
+
+<!ELEMENT lophoc (tenlop,nam,gvcn)>
+<!ATTLIST lophoc malop IDREF #REQUIRED>
+<!ELEMENT tenlop (#PCDATA)>
+<!ELEMENT nam (#PCDATA)>
+<!ELEMENT gvcn (#PCDATA)>
+
+<!ELEMENT monhoc (tenmon)>
+<!ELEMENT tenmon (#PCDATA)>
+<!ATTLIST monhoc ki1 (0|1|2|9|10) "10"
+                 ki2 (0|9|10) "10"
+                 canam (0|9|10) "10">
+<!ELEMENT bangdiem (nam,monhoc+)>
+<!ATTLIST bangdiem>

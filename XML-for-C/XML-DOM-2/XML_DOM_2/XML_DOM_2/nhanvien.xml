@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="nhanvien.xslt"?>
+<congty>
+  <donvi>
+    <madv>a01</madv>
+    <tendv>Phòng tổ chức</tendv>
+    <dienthoai>1234567189</dienthoai>
+  </donvi>
+  <nhanvien manv="1">
+    <hoten>Lê Văn Huân</hoten>
+    <ngaysinh>01-02-1234</ngaysinh>
+    <gioitinh>Nam</gioitinh>
+    <hsluong>69</hsluong>
+  </nhanvien>
+  <nhanvien>
+    <manv>1</manv>
+    <hoten>Lê Văn Huân</hoten>
+    <ngaysinh>02-03-1999</ngaysinh>
+    <gioitinh>Nam</gioitinh>
+    <hsluong>1</hsluong>
+  </nhanvien>
+  <nhanvien>
+    <manv>1</manv>
+    <hoten>Lê Văn Huân</hoten>
+    <ngaysinh>02-03-1999</ngaysinh>
+    <gioitinh>Nam</gioitinh>
+    <hsluong>1</hsluong>
+  </nhanvien>
+  <nhanvien>
+    <manv>1</manv>
+    <hoten>Lê Văn Huân</hoten>
+    <ngaysinh>02-03-1999</ngaysinh>
+    <gioitinh>Nam</gioitinh>
+    <hsluong>1</hsluong>
+  </nhanvien>
+  <nhanvien>
+    <manv>1</manv>
+    <hoten>Lê Văn Huân</hoten>
+    <ngaysinh>02-03-1999</ngaysinh>
+    <gioitinh>Nam</gioitinh>
+    <hsluong>1</hsluong>
+  </nhanvien>
+  <nhanvien>
+    <manv>1</manv>
+    <hoten>Lê Văn Huân</hoten>
+    <ngaysinh>02-03-1999</ngaysinh>
+    <gioitinh>Nam</gioitinh>
+    <hsluong>1</hsluong>
+  </nhanvien>
+  <nhanvien>
+    <manv>1</manv>
+    <hoten>Lê Văn Huân</hoten>
+    <ngaysinh>02-03-1999</ngaysinh>
+    <gioitinh>Nam</gioitinh>
+    <hsluong>1</hsluong>
+  </nhanvien>
+  <nhanvien>
+    <manv>1</manv>
+    <hoten>Lê Văn Huân</hoten>
+    <ngaysinh>02-03-1999</ngaysinh>
+    <gioitinh>Nam</gioitinh>
+    <hsluong>1</hsluong>
+  </nhanvien>
+  <nhanvien>
+    <manv>1</manv>
+    <hoten>Lê Văn Huân</hoten>
+    <ngaysinh>02-03-1999</ngaysinh>
+    <gioitinh>Nam</gioitinh>
+    <hsluong>1</hsluong>
+  </nhanvien>
+  <nhanvien>
+    <manv>1</manv>
+    <hoten>Lê Văn Huân</hoten>
+    <ngaysinh>02-03-1999</ngaysinh>
+    <gioitinh>Nam</gioitinh>
+    <hsluong>1</hsluong>
+  </nhanvien>
+  <nhanvien>
+    <manv>1</manv>
+    <hoten>Lê Văn Huân</hoten>
+    <ngaysinh>02-03-1999</ngaysinh>
+    <gioitinh>Nam</gioitinh>
+    <hsluong>1</hsluong>
+  </nhanvien>
+  <nhanvien>
+    <manv>1</manv>
+    <hoten>Lê Văn Huân</hoten>
+    <ngaysinh>1-2-1234`</ngaysinh>
+    <gioitinh>Nam</gioitinh>
+    <hsluong>1</hsluong>
+  </nhanvien>
+  <nhanvien>
+    <manv>1</manv>
+    <hoten>kjn</hoten>
+    <ngaysinh>jk</ngaysinh>
+    <gioitinh>jk</gioitinh>
+    <hsluong>jb</hsluong>
+  </nhanvien>
+</congty>
