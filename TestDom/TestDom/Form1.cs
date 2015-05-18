@@ -95,7 +95,6 @@ namespace TestDom
                 dgvHienThi.Rows[0].Cells[1].Value = hoten.InnerText.ToString();
                 dgvHienThi.Rows[0].Cells[2].Value = ngaysinh.InnerText.ToString();
             }
-            /*ngoại lệ null do ko thể tìm (select) tới --> bắn ngoại lệ luôn ko cần giải thích nhiều*/
             catch { MessageBox.Show("Không tìm thấy thông tin sinh viên này"); }
         }
 
@@ -121,7 +120,6 @@ namespace TestDom
                 XmlElement goc = doc.DocumentElement;
                 XmlNodeList lst = goc.SelectNodes("//hocsinh/@mahs");
                 int sd = 0, d = 0;
-                //foreach (XmlNode nd in lst) sd++;
                 foreach (XmlNode nd in lst)
                 {
                     if (txt1MHS.Text == nd.InnerText) d++;
@@ -176,7 +174,6 @@ namespace TestDom
         {
             try
             {
-                /*Tư tưởng của sửa là gọi tới nút có mã cần sửa ra... tạo ra 1 nút y hệt và thay thế nút cũ = nút vừa tạo là xong OKE*/
                 XmlDocument doc = new XmlDocument();
                 doc.Load(nguon);
                 XmlElement goc = doc.DocumentElement;
