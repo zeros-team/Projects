@@ -121,6 +121,7 @@
             this.cbMHS.Name = "cbMHS";
             this.cbMHS.Size = new System.Drawing.Size(100, 21);
             this.cbMHS.TabIndex = 24;
+            //this.cbMHS.SelectedIndexChanged += new System.EventHandler(this.cbMHS_SelectedIndexChanged);
             // 
             // label4
             // 

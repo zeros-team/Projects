@@ -1,0 +1,16 @@
+﻿<Controls:MetroWindow x:Class="LoLAccountChecker.Views.TransfersWindow"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                      Title="Accounts" Height="400" Width="450" BorderBrush="#CC008A00" BorderThickness="1">
+    <Grid>
+        <DataGrid x:Name="_transfersGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                  AutoGenerateColumns="False" ItemsSource="{Binding Transfers}" IsReadOnly="True" Grid.RowSpan="1"
+                  BorderBrush="LightGray" BorderThickness="0,1" GridLinesVisibility="All">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*" />
+                <DataGridTextColumn Header="Price" Binding="{Binding Price}" Width="150" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Controls:MetroWindow>

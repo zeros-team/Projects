@@ -111,7 +111,8 @@ namespace TestDom
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            if (txt1MHS.Text == "" || txt1TenHS.Text == "" | dt1NgaySinh.Value.ToString() == "") { MessageBox.Show("Nhập đầy đủ OKE"); }
+            if (txt1MHS.Text == "" || txt1TenHS.Text == "" | dt1NgaySinh.Value.ToString() == "")
+            { MessageBox.Show("Nhập đầy đủ OKE"); }
             else
             {
                 /*Thông tin sinh viên với mã sinh viên ko thể trùng*/
@@ -193,7 +194,10 @@ namespace TestDom
             }
             catch { MessageBox.Show("Kich vào lưới và chọn dữ liệu cần sửa OKE"); }
         }
+        public void cbMHS_SelectedIndexChanged()
+        {
 
+        }
         //private void cbMHS_SelectedIndexChanged(object sender, EventArgs e)
         //{
         //    try

@@ -1,0 +1,17 @@
+﻿<Controls:MetroWindow x:Class="LoLAccountChecker.Views.ChampionsWindow"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                      Title="Champions" Height="390" Width="600" BorderBrush="#CC008A00" BorderThickness="1">
+    <Grid>
+        <DataGrid x:Name="_championsDataGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                  AutoGenerateColumns="False" ItemsSource="{Binding ChampionData}" IsReadOnly="True"
+                  GridLinesVisibility="All">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*" />
+                <DataGridTextColumn Header="Purchase Date"
+                                    Binding="{Binding PurchaseDate, StringFormat=\{0:dd-MM-yyyy HH:mm\}}" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Controls:MetroWindow>
